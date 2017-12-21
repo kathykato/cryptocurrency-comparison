@@ -1,0 +1,24 @@
+body {
+  margin: 0 auto;
+  max-width: 56rem;
+  padding: 1rem 0;
+  background: #eef2f5;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.App {
+  /*text-align: center;*/
+}
+
+.App-header {
+  background: #222;
+  margin: 0;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.25rem;
+}
