@@ -2,24 +2,19 @@ body {
   margin: 0 auto;
   max-width: 56rem;
   padding: 1rem 0;
-  background: #eef2f5; /*#505CA3;*/
-  font-family: 'Source Sans Pro', sans-serif;
+  background: #3c4e80;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1rem
 }
 
-.App {
-  /*text-align: center;*/
-}
-
-.App-header {
-  /*background: #222;*/
+.App-header,
+footer {
   margin: 0;
   padding: 1rem;
   color: #fff;
-  /*text-align: center;*/
 }
 
 .App-title {
-  /*font-size: 1.25rem;*/
+  color: #fffbfb;
 }
