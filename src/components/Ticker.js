@@ -21,7 +21,7 @@ class Ticker extends Component {
   componentDidMount() {
     axios.get('https://api.coinmarketcap.com/v1/ticker/?limit=7')
       .then(response => {
-        const cryptos = ['bitcoin', 'ethereum', 'litecoin','bitcoin-cash', 'ripple', 'iota'];
+        const cryptos = ['bitcoin', 'ripple', 'ethereum', 'bitcoin-cash', 'cardano', 'litecoin'];
         const result = response.data.filter(currency => cryptos.includes(currency.id));
         this.setState({ data: result});
       })

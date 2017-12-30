@@ -63,3 +63,46 @@ h3 {
 .red {
     color: #fd5f8f;
 }
+
+i {
+    font-size: 3.2rem;
+
+}
+
+.cryptocurrency-name {
+    margin-top: 0.5rem
+}
+
+.media {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+}
+
+.media-left {
+    -ms-flex-preferred-size: auto;
+flex-basis: auto;
+-webkit-box-flex: 0;
+-ms-flex-positive: 0;
+flex-grow: 0;
+-ms-flex-negative: 0;
+flex-shrink: 0;
+
+margin-right: 1rem;
+}
+
+.media-content {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    overflow: auto;
+    text-align: left;
+}

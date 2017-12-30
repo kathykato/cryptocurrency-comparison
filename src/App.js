@@ -12,7 +12,7 @@ class App extends Component {
         </header>
         <Ticker />
         <footer className="App-footer">
-          <p className="name">By Katherine Kato. Data provided by Coinmarketcap.</p>
+          <p className="name">By <a href="http://katherinekato.com" title="Katherine Kato" target="_blank" rel="noopener noreferrer">Katherine Kato</a>. Data provided by Coinmarketcap.</p>
         </footer>
       </div>
     );
