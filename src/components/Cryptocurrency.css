@@ -1,7 +1,7 @@
 
     
     .cryptocurrency {
-        background: #485c97;
+        background: #44558d;
 display: flex;
 /*align-items: center;*/
 justify-content: center;
@@ -36,13 +36,18 @@ h3 {
     font-size: 1.125rem;
 }
 
+.cryptocurrency-name {
+    color: #fff;
+}
+
 h2 {
     margin-bottom: 0.5rem;
-    font-size: 1.375rem;
+    font-size: 1.5rem;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+    margin-top: 0.5rem;
 }
 
 h1,
@@ -58,6 +63,9 @@ h3 {
 
 .green {
     color: #30c49f;
+    /*background: #30c49f;
+    border-radius: 0.8rem;
+    color: #fff;*/
 }
 
 .red {
@@ -73,36 +81,41 @@ i {
     margin-top: 0.5rem
 }
 
-.media {
-    -webkit-box-align: start;
-    -ms-flex-align: start;
+.coin {
     align-items: flex-start;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     text-align: left;
 }
 
-.media-left {
-    -ms-flex-preferred-size: auto;
+.coin-left {
 flex-basis: auto;
--webkit-box-flex: 0;
--ms-flex-positive: 0;
 flex-grow: 0;
--ms-flex-negative: 0;
 flex-shrink: 0;
 
 margin-right: 1rem;
+margin-top: 0.5rem;
 }
 
-.media-content {
-    -ms-flex-preferred-size: auto;
+.coin-content {
     flex-basis: auto;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex-negative: 1;
     flex-shrink: 1;
     overflow: auto;
     text-align: left;
+}
+
+img {
+    /*width: 64px;
+    height: 64px;*/
+}
+
+.cryptocurrency-price {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+}
+
+.green, .red {
+    display: inline-block;
+margin: 0 1rem;
 }

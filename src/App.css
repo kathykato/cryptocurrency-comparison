@@ -2,10 +2,11 @@ body {
   margin: 0 auto;
   max-width: 56rem;
   padding: 1rem 0;
-  background: #3c4e80;
+  background: #384875;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 .App-header,
