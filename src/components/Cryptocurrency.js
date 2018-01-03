@@ -20,6 +20,7 @@ class Cryptocurrency extends Component {
         </div>
         <div className="coin-content">
           <h3 className="cryptocurrency-name">{name}</h3>
+          <h4 className="cryptocurrency-symbol">{symbol}</h4>
           <h1 className="cryptocurrency-price"><NumberFormat value={price_usd} displayType={'text'} decimalScale={2} fixedDecimalScale={true} thousandSeparator={true} prefix={'$'} /></h1>
           <h3 className={percent_change_1h > 0 ? 'green' : 'red'}>{percent_change_1h}%</h3>
         </div>

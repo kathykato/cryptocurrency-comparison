@@ -3,16 +3,16 @@
     .cryptocurrency {
         background: #44558d;
 display: flex;
-/*align-items: center;*/
+align-items: left;
 justify-content: center;
-height: 200px;
-height: auto;
+height: 10rem;
+/*height: auto;*/
 /*border-radius: 5px;*/
 box-shadow: 0 2px 3px 0 rgba(0,0,0,.075);
 margin-left: 5px;
 margin-right: 5px;
+flex: 1 1 200px;
 /*flex: 1 1 200px;*/
-flex: 1 1 33.33%;
 -webkit-box-orient: vertical;
 -webkit-box-direction: normal;
 -ms-flex-direction: column;
@@ -31,9 +31,12 @@ margin: 0.5rem;
     }
 
 h3 {
-    color: #a1cbff;
     margin-top: 0;
     font-size: 1.125rem;
+}
+
+h4 {
+    color: #a1cbff;
 }
 
 .cryptocurrency-name {
@@ -46,7 +49,7 @@ h2 {
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     margin-top: 0.5rem;
 }
 
@@ -63,9 +66,6 @@ h3 {
 
 .green {
     color: #30c49f;
-    /*background: #30c49f;
-    border-radius: 0.8rem;
-    color: #fff;*/
 }
 
 .red {

@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  max-width: 56rem;
+  max-width: 60rem;
   padding: 1rem 0;
   background: #384875;
   font-family: 'Lato', sans-serif;
@@ -18,4 +18,8 @@ footer {
 
 .App-title {
   color: #fffbfb;
+}
+
+footer {
+  text-align: center;
 }
