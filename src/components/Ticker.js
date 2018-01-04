@@ -15,15 +15,19 @@ class Ticker extends Component {
             price_usd: '',
             percent_change_1hr: ''
           }
-      ]
+      ],
+      loaded: false
     };
   }
   componentDidMount() {
-    axios.get('https://api.coinmarketcap.com/v1/ticker/?limit=7')
+    axios.get('https://api.coinmarketcap.com/v1/ticker/')
       .then(response => {
-        const cryptos = ['bitcoin', 'ripple', 'ethereum', 'bitcoin-cash', 'cardano', 'litecoin'];
+        const cryptos = ['bitcoin', 'ripple', 'ethereum', 'bitcoin-cash', 'cardano', 'stellar', 'nem', 'litecoin'];
         const result = response.data.filter(currency => cryptos.includes(currency.id));
-        this.setState({ data: result});
+        this.setState({
+          loaded: true,
+          data: result
+        });
       })
       .catch(error => console.log('Error!'));
   }
@@ -31,11 +35,16 @@ class Ticker extends Component {
     var ticker = this.state.data.map((currency) =>
         <Cryptocurrency data={currency} key={currency.id} />
     );
-    return (
+    return this.state.loaded ? (
       <div className="container">
         <div className="ticker-box">{ticker}</div>
       </div>
-    );
+    )
+    : <div className="container">
+        <div className="loading-box">
+          <p>Loading data...</p>
+        </div>
+      </div>
   }
 }
 

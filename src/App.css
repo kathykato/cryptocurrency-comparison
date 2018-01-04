@@ -1,23 +1,20 @@
 body {
   margin: 0 auto;
-  max-width: 60rem;
   padding: 1rem 0;
-  background: #384875;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  max-width: 50rem;
+  color: #c6d8ef;
+  background: #2a3657;
 }
 
-.App-header,
+.app-header,
 footer {
   margin: 0;
   padding: 1rem;
-  color: #fff;
-}
-
-.App-title {
-  color: #fffbfb;
 }
 
 footer {

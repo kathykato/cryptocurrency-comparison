@@ -1,121 +1,97 @@
-
-    
-    .cryptocurrency {
-        background: #44558d;
-display: flex;
-align-items: left;
-justify-content: center;
-height: 10rem;
-/*height: auto;*/
-/*border-radius: 5px;*/
-box-shadow: 0 2px 3px 0 rgba(0,0,0,.075);
-margin-left: 5px;
-margin-right: 5px;
-flex: 1 1 200px;
-/*flex: 1 1 200px;*/
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
--ms-flex-direction: column;
-flex-direction: column;
-
-transform: translate3d(0, 0, 0);
-transition: transform .15s ease;
-
-padding: 1rem;
-margin: 0.5rem;
-    }
-
-    .cryptocurrency:hover {
-        transform: translate3d(0, -4px, 0);
-        box-shadow: 0 0 10px 1px rgba(0,0,0,.075);
-    }
-
-h3 {
-    margin-top: 0;
-    font-size: 1.125rem;
-}
-
-h4 {
-    color: #a1cbff;
-}
-
-.cryptocurrency-name {
-    color: #fff;
-}
-
-h2 {
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-}
-
-h1 {
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-}
-
-h1,
-h2 {
-    color: #fffbfb;
-}
-
 h1,
 h2,
 h3 {
-    font-weight: 400;
+  line-height: 1.1;
 }
 
-.green {
-    color: #30c49f;
+h1,
+h2 {
+  color: #fffbfb;
 }
 
-.red {
-    color: #fd5f8f;
+h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
-i {
-    font-size: 3.2rem;
-
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 
-.cryptocurrency-name {
-    margin-top: 0.5rem
+h3 {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+h3.cryptocurrency-name {
+  margin-top: 0.5rem;
+  color: #fffbfb;
+}
+
+a {
+  color: #2fa8f2;
+}
+
+.cryptocurrency {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex: 1 1 225px;
+  flex-direction: column;
+  padding: 1.125rem;
+  height: 8rem;
+  background: #36426c;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.075);
+  transform: translate3d(0, 0, 0);
+  transition: transform .15s ease;
+}
+
+.cryptocurrency:hover {
+  box-shadow: 0 0 10px 1px rgba(0,0,0,.075);
+  transform: translate3d(0, -4px, 0);
 }
 
 .coin {
-    align-items: flex-start;
-    display: flex;
-    text-align: left;
+  align-items: flex-start;
+  display: flex;
 }
 
 .coin-left {
-flex-basis: auto;
-flex-grow: 0;
-flex-shrink: 0;
-
-margin-right: 1rem;
-margin-top: 0.5rem;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 1rem 1rem 0 0;
 }
 
 .coin-content {
-    flex-basis: auto;
-    flex-grow: 1;
-    flex-shrink: 1;
-    overflow: auto;
-    text-align: left;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow: auto;
+}
+
+.percentage-increase,
+.percentage-decrease {
+  margin-bottom: 0.5rem;
+}
+
+.percentage-increase {
+  color: #30c49f;
+}
+
+.percentage-decrease {
+  color: #ff6694;
 }
 
 img {
-    /*width: 64px;
-    height: 64px;*/
+  width: 48px;
+  height: 48px;
 }
 
-.cryptocurrency-price {
-    display: inline-flex;
-    position: relative;
-    align-items: center;
-}
-
-.green, .red {
-    display: inline-block;
-margin: 0 1rem;
+@media (max-width: 570px) {
+  img {
+    width: 36px;
+    height: 36px;
+  }
 }
