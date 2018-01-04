@@ -61,7 +61,7 @@ a {
   flex-basis: auto;
   flex-grow: 0;
   flex-shrink: 0;
-  margin: 1rem 1rem 0 0;
+  margin: 0.5rem 1rem 0 0;
 }
 
 .coin-content {
