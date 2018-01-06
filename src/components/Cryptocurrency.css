@@ -40,7 +40,6 @@ a {
   flex: 1 1 225px;
   flex-direction: column;
   padding: 1.125rem;
-  height: 8rem;
   background: #36426c;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,.075);
   transform: translate3d(0, 0, 0);
