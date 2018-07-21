@@ -16,7 +16,7 @@ class Cryptocurrency extends Component {
       <div className={'cryptocurrency ' + id}>
         <div className="coin">
           <div className="coin-left">
-            <img src={'http://katherinekato.com/misc/svg/' + symbol + '.svg'} alt={symbol} />
+            <img src={'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1159990/' + symbol + '.svg'} alt={symbol} />
           </div>
           <div className="coin-content">
             <h3 className="cryptocurrency-name">{name} ({symbol})</h3>
